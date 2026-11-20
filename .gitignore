@@ -1,0 +1,46 @@
+# ─── Datos médicos (NUNCA subir a GitHub) ──────────────────────────
+data/
+*.nii.gz
+*.nii
+*.dcm
+
+# ─── Modelos y checkpoints ─────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+models/
+nnUNet_results/
+nnUNet_raw/
+nnUNet_preprocessed/
+
+# ─── Salidas del pipeline ──────────────────────────────────────────
+TwinSight_HTML_Final/
+final_3d_twins*/
+liver_segmentations/
+*.html
+
+# ─── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ─── Entornos virtuales ────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env
+
+# ─── IDE / OS ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ─── Logs ──────────────────────────────────────────────────────────
+*.log
+logs/
